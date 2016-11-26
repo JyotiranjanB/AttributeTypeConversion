@@ -1,4 +1,26 @@
 <?php
+/**
+ * AttributeTypeConversion magento extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category       Magento
+ * @package        AttributeTypeConversion
+ * @copyright      Copyright (c) 2016
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+ /**
+ * Script change attribute type of magento products
+ *
+ * @category       Magento
+ * @package        AttributeTypeConversion
+ * @author         Jyotiranjan Biswal<biswal@jyotiranjan.in>
+ */
 define('MAGENTO', realpath(dirname(__FILE__)));
 require_once MAGENTO . '/app/Mage.php';
 Mage::app();
